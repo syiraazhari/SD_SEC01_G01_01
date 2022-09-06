@@ -1,0 +1,869 @@
+//--------- Start Banner Area -------------//
+.parallax-mirror {
+    max-height: 900px;
+}
+
+.home-banner-area {
+    @media (max-width: 425px) {
+        max-height: 480px;
+    }
+
+    .fullscreen {
+        height: 900px;
+
+        @include media-breakpoint-down (lg) {
+            height: 700px;
+        }
+    }
+
+    .overlay {
+        background: rgba($title-color, 0.7);
+    }
+
+    .banner-content {
+        margin-top: 25%;
+
+        @media (max-width: 991px) {
+            margin-top: 37%;
+            text-align: center;
+        }
+
+        @media (max-width: 767px) {
+            margin-top: 50%;
+            text-align: center;
+        }
+
+        h1 {
+            color: $white;
+            font-size: 60px;
+            font-weight: 700;
+            margin-bottom: 20px;
+
+            @media (max-width: 767px) {
+                font-size: 40px;
+            }
+
+            @media (max-width: 425px) {
+                font-size: 35px;
+            }
+
+            br {
+                @include media-breakpoint-down (md) {
+                    display: none;
+                }
+            }
+        }
+
+        h4 {
+            color: $primary-color;
+        }
+
+        .primary-btn {
+            background: $white;
+            border: 1px solid $white;
+            color: $title-color;
+            margin-top: 40px;
+
+            &:hover {
+                background: $primary-color;
+                color: $white;
+                border: 1px solid $primary-color;
+            }
+        }
+    }
+}
+
+.banner-area {
+    background: url(../img/common-banner.jpg) no-repeat;
+    background-size: cover;
+
+    .banner-content {
+        min-height: 500px;
+
+        @media (max-width: 991px) {
+            padding-top: 100px;
+        }
+    }
+
+    .overlay-bg {
+        background: rgba($black, .5);
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: 20px;
+
+        @media(max-width: 768px) {
+            font-size: 35px;
+        }
+    }
+
+    p {
+        margin-bottom: 0px;
+        color: $white;
+    }
+}
+
+//--------- End Banner Area -------------//
+.top-section-area {
+    #imaginary_container {
+        background: #fff;
+        padding: 24px;
+    }
+}
+
+.top-section-area {
+    .stylish-input-group .form-control {
+        border-right: 0;
+        box-shadow: 0 0 0;
+        border-color: #eee;
+        background-color: $offwhite;
+    }
+
+    .input-group-addon {
+        background-color: $offwhite !important;
+        border-color: #eee;
+    }
+
+    .stylish-input-group button {
+        border: 0;
+        background: transparent;
+    }
+
+    input {
+        font-size: 14px;
+    }
+}
+
+/* Start About Area css
+============================================================================================ */
+
+.about_area {
+    z-index: 1;
+    position: relative;
+
+    .active-brand-carusel {
+        margin-top: 70px;
+    }
+
+    .single-brand {
+        text-align: center;
+        @include filter(grayscale(100%));
+        opacity: .3;
+        @include transition();
+
+        &:hover {
+            @include filter(grayscale(0%));
+            opacity: 1;
+        }
+    }
+
+    .about_details {
+        padding: 130px 0px;
+
+        @media (max-width: 991px) {
+            padding: 80px 0px 0px;
+        }
+
+        h2 {
+            font-size: 48px;
+            margin-bottom: 30px;
+
+            @media (max-width: 767px) {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .about_bg {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/about.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: cover;
+        position: absolute;
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        z-index: -1;
+
+        &.overlay:after {
+            opacity: .3;
+            background: #000000;
+        }
+    }
+}
+
+.about_right {
+    background: url(../img/about-video.jpg) no-repeat center;
+    background-size: cover;
+    height: 350px;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    top: -50px;
+    right: 0%;
+
+    &.overlay {
+        border-radius: 10px;
+
+        &:after {
+            background: #000;
+            opacity: .3;
+            border-radius: 10px;
+        }
+    }
+
+    .video-inner {
+        height: 100%;
+        position: relative;
+        border: 8px solid $white;
+
+        &::before {
+            content: '';
+            @extend .overlay;
+            background: rgba($black, .5);
+        }
+    }
+
+    .play-btn {
+        z-index: 2;
+    }
+
+    @media (max-width: 800px) {
+        margin-top: 100px;
+    }
+}
+
+/* End About Area css
+============================================================================================ */
+
+/* Start Features Area css
+============================================================================================ */
+
+.features-area {
+    padding-bottom: 100px;
+
+    @media (max-width: 991px) {
+        padding-bottom: 50px;
+    }
+}
+
+.feature-item {
+    background: $offwhite;
+    padding: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+
+    i {
+        background: #ffffff;
+        padding: 22px;
+        margin-bottom: 35px;
+        font-size: 56px;
+        display: inline-block;
+        color: $primary-color;
+        border-radius: 5px;
+        @include transition();
+
+        @media (max-width: 767px) {
+            margin-bottom: 20px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+        @include transition();
+    }
+
+    p {
+        margin-bottom: 0px;
+    }
+
+    .primary-btn2 {
+        margin-top: 40px;
+    }
+
+    &:hover {
+        h4 {
+            color: $primary-color;
+        }
+    }
+}
+
+/* End Features Area css
+============================================================================================ */
+
+/* Popular Cause Area css
+============================================================================================ */
+
+.popular-cause-area {
+    background: $offwhite;
+    padding-bottom: 100px;
+
+    @media (max-width: 991px) {
+        padding-bottom: 50px;
+    }
+
+    .single-popular-cause {
+        &.card {
+            border-radius: 0px;
+            border: 0;
+            @include transition();
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+        .card-body {
+            padding: 0;
+        }
+
+        .card-img-top {
+            border-radius: 0px;
+        }
+
+        figure {
+            overflow: hidden;
+            margin: 0;
+
+            img {
+                @include transition();
+            }
+        }
+
+        .card_inner_body {
+            padding: 40px 30px;
+            background: $white;
+
+            .tag {
+                font-size: 13px;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: $primary-color;
+            }
+
+            h4 {
+                font-size: 20px;
+                line-height: 30px;
+            }
+        }
+
+        .raised_goal {
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 25px;
+            margin-bottom: 20px;
+
+            span {
+                color: $primary-color;
+            }
+        }
+
+        .donation {
+            padding-top: 25px;
+            border-top: 1px solid #cfcfcf;
+
+            .primary-btn {
+                line-height: 38px;
+                padding: 0 25px;
+                font-size: 14px;
+                &:hover {
+                    color: $white;
+                }
+            }
+
+            span {
+                color: $primary-color;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0px 12px 40px rgba(153, 153, 153, 0.2);
+
+            img {
+                @include transform(scale(1.2));
+            }
+
+            .donation {
+                .primary-btn {
+                    background: $title-color;
+                    border: 1px solid $title-color;
+                }
+            }
+        }
+    }
+
+
+}
+
+/* End Popular Cause Area css
+============================================================================================ */
+/* Start callto css
+=========================================================================================== */
+
+.callto-area {
+    background: url(../img/ct1.jpg) center no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    .call-wrap {
+        position: relative;
+
+        p {
+            margin-bottom: 0px;
+            font-size: 18px;
+            font-weight: 400;
+            margin-top: 20px;
+            color: $white;
+        }
+    }
+
+    h1 {
+        font-size: 45px;
+        color: $white;
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 40px;
+
+        @media (max-width: 767px) {
+            font-size: 30px;
+        }
+    }
+
+    .overlay-bg {
+        background: rgba(#050a34, .7)
+    }
+}
+
+/* End callto css
+=========================================================================================== */
+
+/* Start Upcoming Events css
+=========================================================================================== */
+
+.upcoming_event_area {
+    padding-bottom: 80px;
+
+    @media (max-width: 991px) {
+        padding-bottom: 30px;
+    }
+}
+
+.single_upcoming_event {
+    background: $offwhite;
+    margin-bottom: 50px;
+
+    figure {
+        overflow: hidden;
+        margin: 0;
+        position: relative;
+
+        img {
+            @include transition();
+        }
+
+        .date {
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            background: rgba($title-color, 0.8);
+            color: $white;
+            font-size: 24px;
+            text-transform: capitalize;
+            font-family: $title-font;
+            font-weight: 700;
+            padding: 18px 20px;
+            @include transition();
+        }
+    }
+
+    .content_wrapper {
+        @media (max-width: 1024px) {
+            margin-top: 0;
+        }
+
+        @media (max-width: 767px) {
+            padding: 20px 20px 50px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 20px;
+            margin-bottom: 15px;
+
+            @media (max-width: 1024px) {
+                margin-bottom: 10px;
+            }
+
+            a {
+                color: $title-color;
+            }
+        }
+
+        .count_time {
+            margin-bottom: 30px;
+            margin-top: 20px;
+
+            @media (max-width: 1199px) and (min-width: 992px) {
+                display: none;
+            }
+
+            @media (max-width: 767px) {
+                display: none;
+            }
+        }
+
+        .single_time {
+            position: relative;
+            margin-right: 25px;
+            padding-right: 25px;
+
+            &:after {
+                content: '';
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                bottom: 0px;
+                width: 1px;
+                background: #cfcfcf;
+            }
+
+            &:last-child {
+                margin-right: 0px;
+                padding-right: 0px;
+
+                &:after {
+                    content: none;
+                }
+            }
+
+            h4 {
+                font-size: 20px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                margin-bottom: 0px;
+            }
+        }
+    }
+
+    &:hover {
+        .title {
+            a {
+                color: $primary-color;
+            }
+        }
+
+        figure {
+            .date {
+                background: $primary-color;
+            }
+        }
+
+        img {
+            @include transform(scale(1.2));
+        }
+    }
+}
+
+/* End Upcoming Events css 
+=========================================================================================== */
+
+/* Start Event Details css
+=========================================================================================== */
+
+.event_details {
+    .event_content {
+        margin-top: 40px;
+    }
+    .left_content {
+        h5 {
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            i {
+                color: $primary-color;
+                font-size: 16px;
+                font-weight: 600;
+                margin-right: 10px;
+            }
+        }
+    }
+    .right_content {
+        h2 {
+            font-size: 36px;
+            line-height: 50px;
+            margin-bottom: 20px;
+            @media(max-width: 991px) {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+        p {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        h4 {
+            font-size: 20px;
+        }
+    }
+}
+
+/* End Event Details
+=========================================================================================== */
+
+/* Start Home Blog css
+=========================================================================================== */
+
+.blog-area {
+    background: $offwhite;
+    padding-bottom: 100px;
+
+    @media (max-width: 991px) {
+        padding-bottom: 50px;
+    }
+
+    .home-blog-left {
+        @media (max-width: 991px) {
+            margin-bottom: 70px;
+        }
+
+        h2 {
+            font-size: 50px;
+            line-height: 60px;
+            margin-bottom: 30px;
+
+            @media (max-width: 767px) {
+                font-size: 30px;
+                line-height: 40px;
+            }
+        }
+
+        p {
+            margin-bottom: 0px;
+        }
+
+        .primary-btn2 {
+            margin-top: 35px;
+        }
+    }
+}
+
+.single-blog {
+    margin-bottom: 30px;
+
+    .thumb {
+        overflow: hidden;
+
+        img {
+            width: 100%;
+            @include transition();
+        }
+    }
+
+    .single-blog-info {
+        padding: 35px 30px;
+        background: $white;
+    }
+
+    h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+        @include transition();
+    }
+
+    a {
+        color: $black;
+    }
+
+    .tag {
+        margin-bottom: 0px;
+        font-size: 12px;
+        font-weight: 400;
+        text-transform: uppercase;
+
+        span {
+            display: inline-block;
+            margin-right: 10px;
+            position: relative;
+            padding-right: 20px;
+
+            &:after {
+                content: '|';
+                position: absolute;
+                top: 0px;
+                right: 4px;
+                color: $text-color;
+            }
+
+            &:last-child {
+                &:after {
+                    content: none;
+                }
+            }
+        }
+    }
+
+    .meta-bottom {
+        border-top: 1px solid #cfcfcf;
+        padding-top: 20px;
+
+        a {
+            display: inline-block;
+            margin-bottom: 0px;
+            color: $text-color;
+            font-size: 12px;
+            font-weight: 400;
+            text-transform: uppercase;
+            @include transition();
+
+            span {
+                color: $primary-color;
+            }
+
+            &:hover {
+                color: $title-color;
+            }
+        }
+    }
+
+    &:hover {
+        img {
+            transform: scale(1.1);
+        }
+
+        h4 {
+            color: $primary-color;
+        }
+    }
+}
+
+
+/* Home Blog css End
+=========================================================================================== */
+
+/* Start Instagram Area css
+============================================================================================ */
+
+.instagram-area {}
+
+.single-instagram {
+    position: relative;
+    overflow: hidden;
+
+    .instagram-img {
+        position: relative;
+
+        &:before {
+            content: "";
+            background: transparent;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            height: 100%;
+            width: 100%;
+            z-index: 10;
+            @include transition();
+        }
+    }
+
+    .instagram-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%, -50%));
+        opacity: 0;
+        visibility: hidden;
+        z-index: 100;
+        @include transition();
+
+        i {
+            display: inline-block;
+            font-size: 36px;
+            color: $white;
+        }
+    }
+
+    &:hover {
+        .instagram-img {
+            &:before {
+                background: rgba($black, .5);
+            }
+        }
+
+        .instagram-text {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+}
+
+/* End Instagram Area css
+============================================================================================ */
+/* Start CTA Area css
+============================================================================================ */
+.cta-area {
+    position: relative;
+    background: $offwhite;
+    text-align: center;
+    color: #fff;
+    padding: 118px 0px;
+
+    @media (max-width: 991px) {
+        padding: 80px 0px;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 60px;
+
+        @media (max-width: 767px) {
+            font-size: 30px;
+        }
+    }
+
+    p {
+        margin-bottom: 20px;
+    }
+
+    .form-control {
+        background: #fff;
+        height: 60px;
+        border: 0px;
+        border-radius: 0px;
+        padding: 0 20px;
+        font-size: 14px;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .primary-btn {
+        line-height: 58px;
+    }
+
+    .info {
+        color: $title-color;
+        min-width: 150px;
+        position: absolute;
+
+        .error {
+            color: $primary-color;
+        }
+    }
+}
+
+/* End CTA Area css
+============================================================================================ */
