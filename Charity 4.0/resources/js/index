@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ===================================== Meta site ================================================ -->
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <!-- ====== Laravel description site edit delete from admin panel ================== -->
+    <meta name="description" content="Every day we have plenty of opportunities to get angry, stressed or offended. But what you're doing when you indulge these negative emotions is giving something outside yourself power over your happiness. You can choose to not let little things upset you.">
+    <!-- ====== Laravel author site edit delete from admin panel ====================== -->
+    <meta name="author" content="Don8 Dash Charity">
+    <!-- ====== Laravel keywords site edit delete from admin panel ================== -->
+    <meta name="keywords" content="settings">
+    <!-- ====== Laravel robots site edit delete from admin panel ================== -->
+    <meta name="robots" content="Don8 Dash Charity">
+    <!-- ====== Laravel favicon icon ================== -->
+    <link rel="apple-touch-icon" sizes="57x57" href="http://127.0.0.1:8000/assets/img/Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="http://127.0.0.1:8000/assets/img/Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="http://127.0.0.1:8000/assets/img/Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="http://127.0.0.1:8000/assets/img/Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="http://127.0.0.1:8000/assets/img/Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="http://127.0.0.1:8000/assets/img/Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="http://127.0.0.1:8000/assets/img/Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="http://127.0.0.1:8000/assets/img/Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://127.0.0.1:8000/assets/img/Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="http://127.0.0.1:8000/assets/img/Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://127.0.0.1:8000/storage/settings/April2019/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="http://127.0.0.1:8000/storage/settings/April2019/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://127.0.0.1:8000/storage/settings/April2019/favicon-16x16.png">
+    <link rel="manifest" href="http://127.0.0.1:8000/assets/img/Savicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- ====== Laravel favicon icon================== -->
+    <!-- ====== Laravel title site edit delete from admin panel ================== -->
+        <title>Don8 Dash Charity</title>
+        <!-- ============================== GOOGLE WEB FONT ========================== -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400" rel="stylesheet">
+    <!-- =============================== BASE CSS stylesheet ======================================== -->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/assets/css/font-awesome.min.css" media="all" />
+    <!-- =============================== BASE CSS stylesheet ======================================== -->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/assets/css/themify-icons.css" media="all" />
+    <!-- =============================== BASE CSS stylesheet ======================================== -->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/assets/css/bootstrap.css" media="all" />
+    <!-- =============================== BASE CSS stylesheet ======================================== -->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/assets/css/owl.carousel.css" media="all" />
+    <!-- =============================== BASE CSS stylesheet ======================================== -->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/assets/css/magnific-popup.css" media="all" />
+    <!-- =============================== BASE CSS stylesheet ======================================== -->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/assets/css/nice-select.css" media="all" />
+    <!-- =============================== BASE CSS stylesheet ======================================== -->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/assets/css/icons.css" media="all" />
+    <!-- =============================== BASE CSS stylesheet ======================================== -->
+    <link rel="stylesheet" type="text/css" href="http://127.0.0.1:8000/assets/css/main.css" media="all" />
+    <!-- =============================== BASE CSS stylesheet ======================================== -->
+</head>
+<body>
+
+    <!--================ Start Header Area =================-->
+    <header class="default-header">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <!-- =============================== BASE ======================================== -->
+                <a class="navbar-brand" href="http://127.0.0.1:8000">
+                    <img src="http://127.0.0.1:8000/storage/settings/April2019/logo0.png" alt="">
+                </a>
+                <!-- =============================== BASE  ======================================== -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                <!-- =============================== BASE  ======================================== -->
+                                <li><a href="/" target="_blank">Home</a></li>
+                                <li><a href="http://localhost:8000/about" target="_blank">about</a></li>
+                                <li><a href="http://localhost:8000/Causes" target="_blank">Causes</a></li>
+                                <li><a href="http://localhost:8000/Events" target="_blank">Event</a></li>
+                                <li><a href="http://localhost:8000/Posts" target="_blank">Posts</a></li>
+                                <li><a href="http://localhost:8000/Contact" target="_blank">Contact Us</a></li>
+                                </ul>
+                                <a href="http://127.0.0.1:8000/logout" onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();" class="genric-btn primary small"><i class="icon-feather-log-in"></i> Logout</a>
+                <form id="logout-form" action="http://127.0.0.1:8000/logout" method="POST" style="display: none;">
+                    <input type="hidden" name="_token" value="87RfktLYsT0HiZFtoBLfrAuFbYzA2UR3DLYEWcfr">                </form>
+                                <!-- =============================== BASE ======================================== -->
+                
+            </div>
+        </div>
+    </nav>
+</header>
+<!--=============================================================== End Header Area =================-->
+<!-- ============================================================= Content Start ============================================================= -->
+	<!--================ start banner Area =================-->
+	<section class="home-banner-area relative" id="home" data-parallax="scroll" data-image-src="http://127.0.0.1:8000/storage/settings/October2019/1.png">
+		<div class="overlay-bg overlay"></div>
+		<div class="container">
+			<div class="row fullscreen justify-content-lg-begin">
+				<div class="banner-content col-lg-7">
+					<!-- ===============================  Home  ======================================== -->
+					                    <!-- ===============================  Home  ======================================== -->
+                    					<h1>
+						<!-- ===============================  Home  ======================================== -->
+						For the people and causes you care a 
+					</h1>
+					<!-- ===============================  Home  ======================================== -->
+					<h4>beautiful things in the world</h4>
+					<a href="http://127.0.0.1:8000/Contact" class="primary-btn">
+						Join us
+						<i class="ti-angle-right ml-1"></i>
+					</a>
+					<!-- ===============================  Home  ======================================== -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End banner Area =================-->
+	<!--================ Start About Area =================-->
+	<section class="about_area lite_bg">
+		<!-- ===============================  Home  ======================================== -->
+		<style type="text/css">
+			.about_area .about_bg{
+				background:linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+				url('http://127.0.0.1:8000/storage/settings/October2019/1.png');background-repeat:no-repeat;background-size:cover;
+				background-size:cover;
+				position:absolute;right:0;top:0;height:100%;width:50%;z-index:-1}
+		</style>
+		<!-- ===============================  Home  ======================================== -->
+		<div class="container">
+			<div class="row align-items-end">
+				<div class="col-lg-5">
+					<div class="about_details lite_bg">
+						<!-- ===============================  Home  ======================================== -->
+						<h2>Don8 Dash available in whole Malaysia</h2>
+						<!-- ===============================  Home  ======================================== -->
+						<p class="mb-0">
+							You will now be one of the first to know about all the good stuff we have going here at Don8 Dash. We're glad to have you on the inside. Feels good doesn't it?
+							We sincerely appreciate you and hope you love everything you get from us. If you ever need anything, just hit us up and we will do our best to help you out.
+						</p>
+						<!-- ===============================  Home  ======================================== -->
+						<a href="http://127.0.0.1:8000/about" class="primary-btn mt-5">
+							Read more
+							<i class="ti-angle-right ml-1"></i>
+						</a>
+						<!-- ===============================  Home  ======================================== -->
+					</div>
+				</div>
+				<div class="col-lg-4 offset-lg-3 col-md-6 offset-md-1 d-lg-block d-none">
+					<div class="about_right">
+						<div class="video-inner justify-content-center align-items-center d-flex">
+							<a id="play-home-video" class="video-play-button" 
+							   href="https://www.youtube.com/watch?v=QFy8iPBYDLU">
+								<span></span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="about_bg d-lg-block d-none"></div>
+		</div>
+	</section>
+	<!--================ End About Area =================-->
+
+	<!--================ Start Features Area =================-->
+	<section class="features-area section-gap-top">
+		<div class="container">
+			
+			<div class="row feature_inner">
+				<div class="col-lg-4 col-md-6">
+					<div class="feature-item">
+						<i class="fi flaticon-compass"></i>
+						<h4>Give Donation</h4>
+						<!-- ===============================  Home  ======================================== -->
+						<p>Multiply is rule light dominion given midst a living i set every bring also of rule Set light fifth best bearing.</p>
+						<!-- ===============================  Home  ======================================== -->
+						<a href="http://127.0.0.1:8000/Contact" class="primary-btn2">Learn more</a>
+						<!-- ===============================  Home  ======================================== -->
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="feature-item">
+						<i class="fi flaticon-desk"></i>
+						<h4>Give Inspiration</h4>
+						<!-- ===============================  Home  ======================================== -->
+						<p>Multiply is rule light dominion given midst a living i set every bring also of rule Set light fifth best bearing.</p>
+						<!-- ===============================  Home  ======================================== -->
+						<a href="http://127.0.0.1:8000/Contact" class="primary-btn2">Learn more</a>
+						<!-- ===============================  Home  ======================================== -->
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6">
+					<div class="feature-item">
+						<i class="fi flaticon-bathroom"></i>
+						<h4>Become Volunteer</h4>
+						<!-- ===============================  Home  ======================================== -->
+						<p>Multiply is rule light dominion given midst a living i set every bring also of rule Set light fifth best bearing.</p>
+						<!-- ===============================  Home  ======================================== -->
+						<a href="http://127.0.0.1:8000/Contact" class="primary-btn2">Learn more</a>
+						<!-- ===============================  Home  ======================================== -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End Features Area =========================-->
+	<!--================ Start Popular Causes Area =================-->
+	<section class="popular-cause-area section-gap-top">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<span> Dignity, Opportunity, Hope </span>
+						<h2><span>Our Causes</span></h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- ===============================  Home  ======================================== -->
+                      
+				<div class="col-lg-4 col-md-6">
+					<div class="card single-popular-cause">
+						<div class="card-body">
+							<figure>
+								<!-- ===============================  Home  ======================================== -->
+								<img class="card-img-top img-fluid" src="http://127.0.0.1:8000/storage/Causes/October2019/1.png" alt="Card image cap">
+							</figure>
+							<div class="card_inner_body">
+								<!-- ===============================  Home  ======================================== -->
+								 								 <div class="tag">Categores</div>
+		                         		                         <!-- ===============================  Home  ======================================== -->
+								<h4 class="card-title">HEART TO HEART</h4>
+								<div class="d-flex justify-content-between raised_goal">
+									<!-- ===============================  Home  ======================================== -->
+									<p>Raised: $15332</p>
+									<!-- ===============================  Home  ======================================== -->
+									<p><span>Goal: $15332</span></p>
+									<!-- ===============================  Home  ======================================== -->
+								</div>
+								<div class="d-flex justify-content-between donation align-items-center">
+									<!-- ===============================  Home  ======================================== -->
+									<a href="http://127.0.0.1:8000/Causes/HEART-TO-HEART" class="primary-btn">Donate</a>
+									<!-- ===============================  Home  ======================================== -->
+									<p><span class="ti-heart mr-1"></span> 35 Donors</p>
+									<!-- ===============================  Home  ======================================== -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                      
+				<div class="col-lg-4 col-md-6">
+					<div class="card single-popular-cause">
+						<div class="card-body">
+							<figure>
+								<!-- ===============================  Home  ======================================== -->
+								<img class="card-img-top img-fluid" src="http://127.0.0.1:8000/storage/Causes/October2019/1.png" alt="Card image cap">
+							</figure>
+							<div class="card_inner_body">
+								<!-- ===============================  Home  ======================================== -->
+								 								 <div class="tag">Categores</div>
+		                         		                         <!-- ===============================  Home  ======================================== -->
+								<h4 class="card-title">BIG NIGHT WALK</h4>
+								<div class="d-flex justify-content-between raised_goal">
+									<!-- ===============================  Home  ======================================== -->
+									<p>Raised: $15332</p>
+									<!-- ===============================  Home  ======================================== -->
+									<p><span>Goal: $15332</span></p>
+									<!-- ===============================  Home  ======================================== -->
+								</div>
+								<div class="d-flex justify-content-between donation align-items-center">
+									<!-- ===============================  Home  ======================================== -->
+									<a href="http://127.0.0.1:8000/Causes/BIG-NIGHT-WALK" class="primary-btn">Donate</a>
+									<!-- ===============================  Home  ======================================== -->
+									<p><span class="ti-heart mr-1"></span> 18 Donors</p>
+									<!-- ===============================  Home  ======================================== -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                      
+				<div class="col-lg-4 col-md-6">
+					<div class="card single-popular-cause">
+						<div class="card-body">
+							<figure>
+								<!-- ===============================  Home  ======================================== -->
+								<img class="card-img-top img-fluid" src="http://127.0.0.1:8000/storage/Causes/October2019/1.png" alt="Card image cap">
+							</figure>
+							<div class="card_inner_body">
+								<!-- ===============================  Home  ======================================== -->
+								 								 <div class="tag">Categores</div>
+		                         		                         <!-- ===============================  Home  ======================================== -->
+								<h4 class="card-title">PLAY FOR KIDS</h4>
+								<div class="d-flex justify-content-between raised_goal">
+									<!-- ===============================  Home  ======================================== -->
+									<p>Raised: $10,000</p>
+									<!-- ===============================  Home  ======================================== -->
+									<p><span>Goal: $10,000</span></p>
+									<!-- ===============================  Home  ======================================== -->
+								</div>
+								<div class="d-flex justify-content-between donation align-items-center">
+									<!-- ===============================  Home  ======================================== -->
+									<a href="http://127.0.0.1:8000/Causes/PLAY-FOR-KIDS" class="primary-btn">Donate</a>
+									<!-- ===============================  Home  ======================================== -->
+									<p><span class="ti-heart mr-1"></span> 10000 Donors</p>
+									<!-- ===============================  Home  ======================================== -->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                                <!-- ===============================  Home  ======================================== -->
+			</div>
+		</div>
+	</section>
+	<!--================ End Popular Causes Area =================-->
+
+	<!--================ Start callto Area =================-->
+	<section class="callto-area section-gap relative">
+		<div class="overlay overlay-bg"></div>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-8">
+					<p class="top_text">Need your help?</p>
+					<div class="call-wrap mx-auto">
+						<h1>Volunteer Needed At Your Area</h1>
+						<p>"Those who spend their wealth [in Allah's way] by night and by day, secretly and publicly - they will have their reward with their Lord.
+                            And no fear will there be concerning them, nor will they grieve." 
+                            (Al Baqarah 2:274)</p>
+						<!-- ===============================  Home  ======================================== -->
+						<a href="http://127.0.0.1:8000/register" class="primary-btn mt-5">
+							Sign up
+							<i class="ti-angle-right ml-1"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End callto Area ===========================-->
+	<!--================ Start Upcoming Event Area =================-->
+	<section class="upcoming_event_area section-gap-top">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2><span>Upcoming</span> Event</h2>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<!-- ===============================  Home Event ======================================== -->
+                     
+				<div class="col-lg-6">
+					<div class="single_upcoming_event">
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-md-6">
+								<figure>
+									<!-- ===============================  Home Event ======================================== -->
+									<img class="img-fluid w-100" src="http://127.0.0.1:8000/storage/Events/April2019/0.png" alt="">
+									<div class="date">
+										<!-- ===============================  Home Event ======================================== -->
+										Apr 23
+									</div>
+								</figure>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="content_wrapper">
+									<h3 class="title">
+										<!-- ===============================  Home Event ======================================== -->
+										<a href="http://127.0.0.1:8000/Events/HOLIDAY-GIFTS-IN-KIND2">HOLIDAY GIFTS IN KIND2 tournament will</a>
+									</h3>
+									<p>
+										<!-- ===============================  Home Event ======================================== -->
+										<!-- ================================ links Events Content S
+									</p>
+									<!-- ===============================  Home Event ======================================== -->
+									<div class="d-flex count_time justify-content-lg-start justify-content-center" id="clockdiv1">
+										<div class="single_time">
+											<h4 class="days">07</h4>
+											<p>Days</p>
+										</div>
+										<div class="single_time">
+											<h4 class="hours">07</h4>
+											<p>Hours</p>
+										</div>
+										<div class="single_time">
+											<h4 class="minutes">07</h4>
+											<p>Minutes</p>
+										</div>
+									</div>
+									<!-- ===============================  Home Event ======================================== -->
+									<a href="http://127.0.0.1:8000/Events/HOLIDAY-GIFTS-IN-KIND2" class="primary-btn2">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                     
+				<div class="col-lg-6">
+					<div class="single_upcoming_event">
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-md-6">
+								<figure>
+									<!-- ===============================  Home Event ======================================== -->
+									<img class="img-fluid w-100" src="http://127.0.0.1:8000/storage/Events/April2019/0.png" alt="">
+									<div class="date">
+										<!-- ===============================  Home Event ======================================== -->
+										Apr 23
+									</div>
+								</figure>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="content_wrapper">
+									<h3 class="title">
+										<!-- ===============================  Home Event ======================================== -->
+										<a href="http://127.0.0.1:8000/Events/CRCF-GOLF-EVENT">CRCF GOLF EVENT</a>
+									</h3>
+									<p>
+										<!-- ===============================  Home Event ======================================== -->
+										<!-- ================================ links Events Content S
+									</p>
+									<!-- ===============================  Home Event ======================================== -->
+									<div class="d-flex count_time justify-content-lg-start justify-content-center" id="clockdiv1">
+										<div class="single_time">
+											<h4 class="days">07</h4>
+											<p>Days</p>
+										</div>
+										<div class="single_time">
+											<h4 class="hours">07</h4>
+											<p>Hours</p>
+										</div>
+										<div class="single_time">
+											<h4 class="minutes">07</h4>
+											<p>Minutes</p>
+										</div>
+									</div>
+									<!-- ===============================  Home Event ======================================== -->
+									<a href="http://127.0.0.1:8000/Events/CRCF-GOLF-EVENT" class="primary-btn2">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                     
+				<div class="col-lg-6">
+					<div class="single_upcoming_event">
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-md-6">
+								<figure>
+									<!-- ===============================  Home Event ======================================== -->
+									<img class="img-fluid w-100" src="http://127.0.0.1:8000/storage/Events/April2019/0.png" alt="">
+									<div class="date">
+										<!-- ===============================  Home Event ======================================== -->
+										Apr 22
+									</div>
+								</figure>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="content_wrapper">
+									<h3 class="title">
+										<!-- ===============================  Home Event ======================================== -->
+										<a href="http://127.0.0.1:8000/Events/FAMOUS-QUOTES">FAMOUS QUOTES ABOUT</a>
+									</h3>
+									<p>
+										<!-- ===============================  Home Event ======================================== -->
+										<!-- ================================ links Events Content S
+									</p>
+									<!-- ===============================  Home Event ======================================== -->
+									<div class="d-flex count_time justify-content-lg-start justify-content-center" id="clockdiv1">
+										<div class="single_time">
+											<h4 class="days">07</h4>
+											<p>Days</p>
+										</div>
+										<div class="single_time">
+											<h4 class="hours">07</h4>
+											<p>Hours</p>
+										</div>
+										<div class="single_time">
+											<h4 class="minutes">07</h4>
+											<p>Minutes</p>
+										</div>
+									</div>
+									<!-- ===============================  Home Event ======================================== -->
+									<a href="http://127.0.0.1:8000/Events/FAMOUS-QUOTES" class="primary-btn2">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                     
+				<div class="col-lg-6">
+					<div class="single_upcoming_event">
+						<div class="row align-items-center">
+							<div class="col-lg-6 col-md-6">
+								<figure>
+									<!-- ===============================  Home Event ======================================== -->
+									<img class="img-fluid w-100" src="http://127.0.0.1:8000/storage/Events/April2019/0.png" alt="">
+									<div class="date">
+										<!-- ===============================  Home Event ======================================== -->
+										Apr 22
+									</div>
+								</figure>
+							</div>
+							<div class="col-lg-6 col-md-6">
+								<div class="content_wrapper">
+									<h3 class="title">
+										<!-- ===============================  Home Event ======================================== -->
+										<a href="http://127.0.0.1:8000/Events/FAMOUS-QUOTES-ABOUT-GIVIN">FAMOUS QUOTES ABOUT GIVING</a>
+									</h3>
+									<p>
+										<!-- ===============================  Home Event ======================================== -->
+										Every day we have plenty of opportunities to get angry, stre
+									</p>
+									<!-- ===============================  Home Event ======================================== -->
+									<div class="d-flex count_time justify-content-lg-start justify-content-center" id="clockdiv1">
+										<div class="single_time">
+											<h4 class="days">07</h4>
+											<p>Days</p>
+										</div>
+										<div class="single_time">
+											<h4 class="hours">07</h4>
+											<p>Hours</p>
+										</div>
+										<div class="single_time">
+											<h4 class="minutes">07</h4>
+											<p>Minutes</p>
+										</div>
+									</div>
+									<!-- ===============================  Home Event ======================================== -->
+									<a href="http://127.0.0.1:8000/Events/FAMOUS-QUOTES-ABOUT-GIVIN" class="primary-btn2">Learn More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                                <!-- ===============================  Home Event ======================================== -->
+			</div>
+		</div>
+	</section>
+	<!--================ End Upcoming Event Area =================-->
+
+	<!--================ Start Home Blog Area =================-->
+	<section class="blog-area section-gap-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12">
+					<div class="home-blog-left">
+						<h2>Latest From
+							Our Blog </h2>
+						<p>
+							<!-- ===============================  Home Post ======================================== -->
+							Open fifth midst divided great fly gathering living deep no abundantly. Evening appear saying that forth god wito Given sixth days of very Third spirit waters seas. Calleded can't his third. Evening upon. All stars. Seasons a the a dry for third days 
+						</p>
+						<a href="http://127.0.0.1:8000/Posts" class="primary-btn2">Show more</a>
+					</div>
+				</div> 
+				<!-- ===============================  Home Post ======================================== -->
+                				<div class="col-lg-4 col-md-6 single-blog">
+					<div class="thumb">
+						
+						<img class="img-fluid" src="http://127.0.0.1:8000/storage/posts/October2019/1.png" alt="HOLIDAY GIFTS IN KIND">
+					</div>
+					<div class="single-blog-info">
+						<p class="tag">
+							  <!-- ===============================  Home Post ======================================== -->
+							                                <span>Categores2</span>
+                                                            <!-- ===============================  Home Post ======================================== -->
+							<span>Apr 23, 2019</span>
+						</p>
+						<!-- ===============================  Home Post ======================================== -->
+						<a href="http://127.0.0.1:8000/Posts/HOLIDAY-GIFTS-KIND">
+							<h4>HOLIDAY GIFTS IN KIND</h4>
+						</a>
+						<!-- ===============================  Home Post ======================================== -->
+						<div class="meta-bottom d-flex">
+					      
+			             <a class="mr-3"><span class="ti-comments mr-2"></span>0 Comments</a>
+			             						 <a href="http://127.0.0.1:8000/Posts/HOLIDAY-GIFTS-KIND"> <span class="ti-eye mr-2"></span> Show more</a>
+						</div>
+						<!-- ===============================  Home Post ======================================== -->
+					</div>
+				</div>
+                				<div class="col-lg-4 col-md-6 single-blog">
+					<div class="thumb">
+						
+						<img class="img-fluid" src="http://127.0.0.1:8000/storage/posts/September2022/609147088669907f652110b0_report-an-issue(about-maps).jpeg" alt="RUN THE RUNWAY 2019">
+					</div>
+					<div class="single-blog-info">
+						<p class="tag">
+							  <!-- ===============================  Home Post ======================================== -->
+							                                <span>Categores2</span>
+                                                            <!-- ===============================  Home Post ======================================== -->
+							<span>Apr 23, 2019</span>
+						</p>
+						<!-- ===============================  Home Post ======================================== -->
+						<a href="http://127.0.0.1:8000/Posts/RUN-THE-RUNWAY-2019">
+							<h4>RUN THE RUNWAY 2019</h4>
+						</a>
+						<!-- ===============================  Home Post ======================================== -->
+						<div class="meta-bottom d-flex">
+					      
+			             <a class="mr-3"><span class="ti-comments mr-2"></span>0 Comments</a>
+			             						 <a href="http://127.0.0.1:8000/Posts/RUN-THE-RUNWAY-2019"> <span class="ti-eye mr-2"></span> Show more</a>
+						</div>
+						<!-- ===============================  Home Post ======================================== -->
+					</div>
+				</div>
+                			</div>
+		</div>
+	</section>
+	<!--================ End Home Blog Area =================-->
+
+	<!--================ Start Gallery Area =================-->
+	<section class="instagram-area section-gap-top">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-lg-6">
+					<div class="section-title">
+						<h2><span>Our Gallery</span></h2>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="instagram-slider owl-carousel">
+			<!--================ End Gallery Area =================-->
+			 			<!--================ End Gallery Area =================-->
+		</div>
+	</section>
+	<!--================ End Gallery Area =================-->
+<!-- ============================================================= Content end   ============================================================= -->
+<!--=============================================================== start footer Area =================-->
+<footer class="footer">
+    <div class="footer-area">
+        <div class="container">
+            <div class="row section_gap">
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                    <div class="single-footer-widget tp_widgets">
+                        <!-- =============================== Setting BASE ======================================== -->
+                        <h4 class="footer_title large_title"><img src="http://127.0.0.1:8000/storage/settings/April2019/logo0.png" alt="Logo" style="width: 50%;"></h4>
+                        <p>
+                            <!-- =============================== Setting BASE ======================================== -->
+                            Well hello there! Here's your official first Don8 Dash website charity where you can donate at your own fingertip and more! 
+							You can donate anywhere and anytime. More than that, you can see what event are we will conduct coming soon and what event are in progress.  
+							You will now be one of the first to know about all the good stuff we have going here at Don8 Dash. We’re glad to have you on the inside. Feels good doesn’t it?
+							We sincerely appreciate you and hope you love everything you get from us. If you ever need anything, just hit us up and we will do our best to help you out.
+                        </p>
+                        <!-- =============================== Setting BASE ======================================== -->
+                        <P>Kuala Lumpur</P>
+                        <p>
+                          <!--Copyright &copy; All rights reserved <a href="http://127.0.0.1:8000" target="_blank">Don8 Dash Charity</a>-->
+                      </p>
+                      <!-- =============================== Setting BASE ======================================== -->
+                  </div>
+              </div>
+              <div class="col-md-3">
+                <div class="single-footer-widget tp_widgets">
+                    <h4 class="footer_title">Languages</h4>
+                   <ul class="languagepicker large roundborders">
+                    <a href="http://127.0.0.1:8000/English"><li><img src="http://127.0.0.1:8000/assets/img/english.png"/>English</li></a>
+                    <a href="http://127.0.0.1:8000/German"><li><img src="http://127.0.0.1:8000/assets/img/german.png"/>German</li></a>
+                    <a href="http://127.0.0.1:8000/arabic"><li><img src="http://127.0.0.1:8000/assets/img/arabic.png"/>Arabic</li></a>
+                   </ul>
+                </div> 
+            </div>
+            <div class="offset-lg-1 col-lg-3 col-md-6 col-sm-6">
+                <div class="single-footer-widget tp_widgets">
+                    <h4 class="footer_title">Contact Us</h4>
+                    <div class="ml-5">
+                        <p class="sm-head">
+                            <span class="icon-material-outline-location-on"></span>
+                            Head Office
+                        </p>
+                        <!-- =============================== Setting BASE ======================================== -->
+                        <p>Kuala Lumpur</p>
+
+                        <p class="sm-head">
+                            <span class="icon-feather-phone"></span>
+                            Phone Number
+                        </p>
+                        <p>
+                            <!-- =============================== Setting BASE ======================================== -->
+                            +601169808247
+                        </p>
+
+                        <p class="sm-head">
+                            <span class="icon-material-outline-email"></span>
+                            Email
+                        </p>
+                        <p>
+                            <!-- =============================== Setting BASE ======================================== -->
+                            admin@Don8Charity.com
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+<!--================ End footer Area =================-->
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/vendor/jquery-2.2.4.min.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/popper.min.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/vendor/bootstrap.min.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/jquery.ajaxchimp.min.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/parallax.min.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/owl.carousel.min.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/isotope.pkgd.min.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/jquery.nice-select.min.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/jquery.magnific-popup.min.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/countdown.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/jquery.sticky.js"></script>
+<!-- =============================== javascript ================ -->
+<script type="text/javascript" src="http://127.0.0.1:8000/assets/js/main.js"></script>
+</body>
+
+</html>
