@@ -1,0 +1,185 @@
+.section-gap {
+	padding: 130px 0;
+	@media (max-width: 991px) {
+		padding: 80px 0;
+	}
+}
+
+.section-gap-top {
+	padding-top: 130px;
+	@media (max-width: 991px) {
+		padding-top: 80px;
+	}
+}
+
+.section-gap-bottom {
+	padding-bottom: 130px;
+	@media (max-width: 991px) {
+		padding-bottom: 80px;
+	}
+}
+
+
+.top_text {
+	font-size: 18px;
+	font-weight: 400;
+	color: $primary-color;
+}
+
+/* Main Title Area css
+============================================================================================ */
+
+.section-title  {
+	text-align: center;
+	margin-bottom: 80px;
+	@media (max-width: 991px) {
+		margin-bottom: 40px;
+	}
+	h2 {
+		font-size: 42px;
+		line-height: 33px;
+		@media (max-width: 991px) {
+			font-size: 30px;
+			line-height: 30px;
+		}
+		span {
+			color: $primary-color;
+		}
+	}
+}
+
+/* End Main Title Area css
+============================================================================================ */
+
+
+/* Start Buttons Area css
+============================================================================================ */
+
+.primary-btn {
+	position: relative;
+	display: inline-block;
+	line-height: 48px;
+	color: $white;
+	padding: 0px 35px;
+	font-family: $title-font;
+	font-size: 15px;
+	font-weight: 400;
+	outline: none !important;
+	text-align: center;
+	cursor: pointer;
+	text-transform: capitalize;
+	background: $primary-color;
+	border: 1px solid $primary-color;
+	border-radius: 2px;
+	@include transition();
+	i {
+		font-size: 11px;
+	}
+	&:hover {
+		background: transparent;
+		color: $title-color;
+	}
+}
+
+.primary-btn2 {
+	position: relative;
+	display: inline-block;
+	color: $primary-color;
+	font-family: $title-font;
+	font-size: 14px;
+	font-weight: 400;
+	outline: none !important;
+	text-transform: capitalize;
+	cursor: pointer;
+	@include transition();
+	&:after {
+		content: '';
+		position: absolute;
+		left: 0px;
+		bottom: -4px;
+		height: 1px;
+		width: 50px;
+		background: $title-color;
+		@include transition();
+	}
+	&:hover {
+		background: transparent;
+		color: $title-color;
+		&:after {
+			background: $primary-color;
+		}
+	}
+}
+
+/* End Buttons Area css
+============================================================================================ */
+
+/* Start Overlay css
+============================================================================================ */
+.overlay {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+}
+
+/* End Overlay css
+============================================================================================ */
+
+/* Start Video Play css
+============================================================================================ */
+
+.video-play-button {
+    position: relative;
+    box-sizing: content-box;
+    display: inline-block;
+    width: 32px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 46px 8px 18px 28px;
+    &:before, &:after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 50%;
+		@include transform(translate(-50%, -50%));
+		border: 2px solid $white;
+        display: block;
+        width: 60px;
+		height: 60px;
+		background: transparent;
+        border-radius: 50%;
+    }
+    &:before {
+        z-index: 0;
+        @include animation(pulse-border 2000ms ease-out infinite);
+    }
+    &:after {
+        z-index: 1;
+        @include transition(all 200ms ease);
+    }
+    span {
+        display: block;
+        position: relative;
+        z-index: 3;
+        width: 0;
+        height: 0;
+        border-left: 16px solid #ffffff;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid transparent;
+    }
+}
+
+@include keyframes(pulse-border) {
+    0% {
+        @include transform(translate(-50%, -50%) translateZ(0) scale(1));
+        opacity: .7;
+    }
+    100% {
+        @include transform(translate(-50%, -50%) translateZ(0) scale(1.5));
+        opacity: 0.1;
+    }
+}
+/* End Video Play css
+============================================================================================ */
